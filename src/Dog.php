@@ -1,5 +1,5 @@
 <?php
-namespace TDD //the namespace was added
+// namespace TDD //the namespace was added
 class Dog {
     
     public $name;

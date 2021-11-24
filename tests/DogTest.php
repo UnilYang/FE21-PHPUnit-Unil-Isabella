@@ -1,8 +1,8 @@
 <?php
-namespace TDD\Test;
+// namespace TDD\Test;
 use PHPUnit\Framework\TestCase;
-// require_once "src/Dog.php";
-use TDD\Dog; // it was changed from 'require' to 'use'
+require_once "src/Dog.php";
+// use TDD\Dog; // it was changed from 'require' to 'use'
 
 class DogTest extends TestCase { // The File Name should be *Test.php
     public function testExist() {
